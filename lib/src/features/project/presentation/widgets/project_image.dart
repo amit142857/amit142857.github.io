@@ -109,10 +109,15 @@ class ProjectImage extends ConsumerWidget {
         projectIconFontPackage != null) {
       final projectIconCodePointHexa = int.tryParse(projectIconCodePoint);
       if (projectIconCodePointHexa != null) {
-        return const Icon(
+        final iconData = IconData(
+          projectIconCodePointHexa,
+          fontFamily: projectIconFontFamily,
+          fontPackage: projectIconFontPackage,
+        );
+        return  Icon(
           color: Colors.white,
           size: 32,
-          Icons.android_rounded,
+          iconData
         );
       }
     }
