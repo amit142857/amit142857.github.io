@@ -1,0 +1,206 @@
+{
+    "name": "Amit Yadav",
+    "description": "Mobile App Developer",
+    "subDescription": "Flutter & Python Enthusiast",
+    "contacts": [
+        {
+            "tooltip": "LinkedIn",
+            "url": "https://www.linkedin.com/in/amit-yadav-960b12147/",
+            "iconCodePoint": "0xf08c",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter"
+        },
+        {
+            "tooltip": "Github",
+            "url": "https://github.com/amit142857",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter"
+        },
+        {
+            "tooltip": "ydvamit82@gmail.com",
+            "url": "mailto:ydvamit82@gmail.com",
+            "iconCodePoint": "0xf0e0",
+            "iconFontFamily": "FontAwesomeSolid",
+            "iconFontPackage": "font_awesome_flutter"
+        },
+        {
+            "tooltip": "+977-981-5999197",
+            "url": "tel:+9779815999197",
+            "iconCodePoint": "0xf095",
+            "iconFontFamily": "FontAwesomeSolid",
+            "iconFontPackage": "font_awesome_flutter"
+        }
+    ],
+    "resumes": [
+        {
+            "languageCode": "en",
+            "url": "https://drive.google.com/file/d/1FSM7NIw3YjVR6KRpjWAqqB3DHvon2eyH/view?usp=sharing"
+        },
+        {
+            "languageCode": "fr",
+            "url": "https://drive.google.com/file/d/1FSM7NIw3YjVR6KRpjWAqqB3DHvon2eyH/view?usp=sharing"
+        }
+    ],
+    "aboutDescription": "Hello! I'm Amit, an apprentice developer, specializing in mobile development. Passionate about the mobile ecosystem, I combine my studies with my practical expericence to build intuitive and feature-rich applications.\nI aspire to put my skills to work on inspiring and challenging projects.",
+    "experiences": [
+        {
+            "job": "Mobile App Developer",
+            "company": "Eastern Hawk Software Solution",
+            "description": "Developmet of first Mobile application with great UI and consuming some of REST API's was made here. Learning Simple commands of Git to the complex commands was done here with excellent seniors.",
+            "isPresent": false,
+            "startYear": 2021,
+            "startMonth": 8,
+            "endYear": 2023,
+            "endMonth": 1,
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "REST API",
+                "Figma UI",
+                "SQLite", 
+                "GitHub"
+            ],
+            "links": [
+                {
+                    "url": "https://ehsnepal.com/",
+                    "display": "Eastern Hawk Software Solution"
+                }
+            ]
+        },
+        {
+            "job": "Mobile App Developer",
+            "company": "Varosa Technology",
+            "description": "Development of a Fintech application with standard security measures and excellent UI, for Qatar. A Room allocation application with QR code scanner which allocates the room automatically for the participants for any gathering. A VoIP application whose competitors are openphone and krispcall, having a lot more features than it's competitors.",
+            "startYear": 2023,
+            "startMonth": 1,
+            "isPresent":true,
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "Firebase", 
+                "GraphQL", 
+                "Figma UI", 
+                "Bloc", 
+                "Twilio Voice"
+            ], 
+            "links": [
+                {
+                    "url": "https://varosatech.com/",
+                    "display": "Varosa Technology"
+                }]
+        }
+    ],
+    "present": "Present",
+    "projects": [
+        {
+            "name": "CALILIO",
+            "description": "Calilio is a VoIP application which is way more secure and future-rich than its competitors. Calilio uses Twilio voice SDK for VoIP. It is made completely in Bloc pattern for state management and GraphQL for backend. It has it's own contact list with all the features like single/multiple contact sharing in .vcf format and many more.",
+            "url": "https://www.calilio.com/",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotPath": "assets/images/calilio1.png",
+            "technologies": [
+                "Flutter",
+                "Dart", 
+                "Bloc", 
+                "GraphQL", 
+                "Twilio Voice"
+            ],
+            "links": [
+                {
+                    "url": "https://apps.apple.com/us/app/calilio/id6450351787",
+                    "display": "Calilio"
+                }
+            ]
+        },
+        {
+            "name": "Mume",
+            "description": "Mume is a fintech application made for government of Qatar, which is still in beta testing phase. This application follows Bloc for state management. Rest API, Beautiful UI and best security as per industry standard.",
+            "url": "https://play.google.com/store/apps/details?id=com.mume&pcampaignid=web_share",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotPath": "assets/images/mume1.png",
+            "technologies": [
+                "REST API", 
+                "Figma UI", 
+                "Dart", 
+                "Bloc", 
+                "GitHub"
+            ], 
+            "links": [
+                {
+                    "url": "https://play.google.com/store/apps/details?id=com.mume&pcampaignid=web_share",
+                    "display": "Mume"
+                }
+            ]
+        },
+        {
+            "name": "Retail Management System",
+            "description": "This application is made for a leading company based in belgium, Fish King. This application is made for the retailers, customers and the wholesalers to make their work more time efficient by tracking each and every transaction and order they made/delivered.",
+            "url": "https://www.fishkingseafood.com/",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotPath": "assets/images/retail.png",
+            "technologies": [
+                "Flutter",
+                "Dart", 
+                "REST API", 
+                "GitHub", 
+                "Figma UI"
+            ], 
+            "links": [
+                {
+                    "url": "https://www.fishkingseafood.com/",
+                    "display": "Retail Management System"
+                }
+            ]
+        },
+        {
+            "name": "SMS Receiver",
+            "description": "The SMS receiver app is the application which is used to receive temproary messsages in the numbers from different countries of the world. twillio SDk is used for the numbers and retrive the sms of those number. This App is completely free and do not charges a penny, rather is shows some ADs to get server costs.",
+            "url": "",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotPath": "assets/images/sms.png",
+            "technologies": [
+                "Bloc", 
+                "Dart", 
+                "Figma UI", 
+                "Flutter", 
+                "REST API"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "code": "en",
+            "name": "English",
+            "nativeName": "English"
+        },
+        {
+            "code": "fr",
+            "name": "French",
+            "nativeName": "Français"
+        }
+    ],
+    "bottomBanner": {
+        "message": "",
+        "displayLink": "",
+        "linkUrl": ""
+    },
+    "portfolio": "Portfolio",
+    "homeSectionTitle": "Home",
+    "aboutSectionTitle": "About",
+    "aboutSectionTitleAlt": "About Me",
+    "experienceSectionTitle": "Experience",
+    "projectsSectionTitle": "Projects",
+    "resume": "Resume",
+    "downloadResume": "Download resume",
+    "openUrlError": "Could not open the url",
+    "unknownLanguageError": "Language unknown"
+}
