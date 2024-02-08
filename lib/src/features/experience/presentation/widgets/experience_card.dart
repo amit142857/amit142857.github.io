@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/common/widgets/technology_wrap_chips.dart';
-import 'package:portfolio/src/common/widgets/wrap_links.dart';
-import 'package:portfolio/src/constants/sizes.dart';
-import 'package:portfolio/src/features/experience/domain/experience.dart';
-import 'package:portfolio/src/common/widgets/responsive.dart';
-import 'package:portfolio/src/features/experience/presentation/widgets/experience_date_text.dart';
-import 'package:portfolio/src/utils/launch_url_helper.dart';
-import 'package:portfolio/src/utils/scaffold_messenger_helper.dart';
+import 'package:amit142857/src/common/widgets/technology_wrap_chips.dart';
+import 'package:amit142857/src/common/widgets/wrap_links.dart';
+import 'package:amit142857/src/constants/sizes.dart';
+import 'package:amit142857/src/features/experience/domain/experience.dart';
+import 'package:amit142857/src/common/widgets/responsive.dart';
+import 'package:amit142857/src/features/experience/presentation/widgets/experience_date_text.dart';
+import 'package:amit142857/src/utils/launch_url_helper.dart';
+import 'package:amit142857/src/utils/scaffold_messenger_helper.dart';
 
 class ExperienceCard extends ConsumerWidget {
   const ExperienceCard({super.key, required this.experience});

@@ -59,13 +59,13 @@ Here's the template of a JSON translation file:
   // Projects
   "projects": [
     {
-      "name": "Portfolio", // Name of the project
-      "description": "Yes, it's THIS portfolio! \nThis project follows a Riverpod-based Architecture, using a feature-first approach for its structure. It is fully responsive, and supports multiple themes and languages.", // Description of the project
-      "url": "https://github.com/AladdineDev/portfolio#readme", // URL to open when the project card is tapped
+      "name": "amit142857", // Name of the project
+      "description": "Yes, it's THIS amit142857! \nThis project follows a Riverpod-based Architecture, using a feature-first approach for its structure. It is fully responsive, and supports multiple themes and languages.", // Description of the project
+      "url": "https://github.com/AladdineDev/amit142857#readme", // URL to open when the project card is tapped
       "iconCodePoint": "0xf09b", // Unicode code point for the icon (prefix with "0x" for hexadecimal), can be obtained from https://www.fontawesome.com
       "iconFontFamily": "FontAwesomeBrands", // Font family for the icon (e.g., FontAwesomeBrands), can be obtained from https://github.com/fluttercommunity/font_awesome_flutter/blob/32beff2ea1156d62d0c2130b8202b88a9724508f/pubspec.yaml
       "iconFontPackage": "font_awesome_flutter", // Name of the package providing the icon font (here, it's based on Font Awesome)
-      "screenshotPath": "assets/images/portfolio.png", // screenshot asset path of the project
+      "screenshotPath": "assets/images/amit142857.png", // screenshot asset path of the project
       "technologies": [
         "Flutter" // Technologies used in this project
       ],
@@ -89,13 +89,13 @@ Here's the template of a JSON translation file:
 
   // Bottom banner
   "bottomBanner": {
-    "message": "Open source portfolio -", // Text at the beginning of the "displayLink" part
+    "message": "Open source amit142857 -", // Text at the beginning of the "displayLink" part
     "displayLink": "Fork it!", // Text at the end of the "message" part
-    "linkUrl": "https://github.com/AladdineDev/portfolio" // URL to open when the "displayLink" part is tapped
+    "linkUrl": "https://github.com/AladdineDev/amit142857" // URL to open when the "displayLink" part is tapped
   },
 
   // Navigation and Section Titles
-  "portfolio": "Portfolio", // Title for the app bar
+  "amit142857": "amit142857", // Title for the app bar
   "homeSectionTitle": "Home", // Text for the home section
   "aboutSectionTitle": "About", // Text for the about section
   "aboutSectionTitleAlt": "About Me", // Alternative text for the about section

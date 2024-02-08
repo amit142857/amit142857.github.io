@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/constants/themes.dart' as themes;
-import 'package:portfolio/src/features/main/presentation/main_section.dart';
-import 'package:portfolio/src/features/main/provider/dark_mode_controller.dart';
+import 'package:amit142857/src/constants/themes.dart' as themes;
+import 'package:amit142857/src/features/main/presentation/main_section.dart';
+import 'package:amit142857/src/features/main/provider/dark_mode_controller.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:portfolio/src/localization/generated/locale_keys.g.dart';
+import 'package:amit142857/src/localization/generated/locale_keys.g.dart';
 
 class MyApp extends ConsumerWidget {
   const MyApp({super.key});

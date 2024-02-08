@@ -1,15 +1,15 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/common/widgets/animated_fade_slide.dart';
-import 'package:portfolio/src/common/widgets/selection_area.dart';
-import 'package:portfolio/src/features/about/presentation/about_section.dart';
-import 'package:portfolio/src/features/experience/presentation/experience_section.dart';
-import 'package:portfolio/src/features/personal_info/presentation/personal_info_section.dart';
-import 'package:portfolio/src/features/main/presentation/widgets/app_bar.dart';
-import 'package:portfolio/src/features/project/presentation/project_section.dart';
-import 'package:portfolio/src/features/main/provider/scroll_controller.dart';
-import 'package:portfolio/src/features/main/provider/section_key_provider.dart';
+import 'package:amit142857/src/common/widgets/animated_fade_slide.dart';
+import 'package:amit142857/src/common/widgets/selection_area.dart';
+import 'package:amit142857/src/features/about/presentation/about_section.dart';
+import 'package:amit142857/src/features/experience/presentation/experience_section.dart';
+import 'package:amit142857/src/features/personal_info/presentation/personal_info_section.dart';
+import 'package:amit142857/src/features/main/presentation/widgets/app_bar.dart';
+import 'package:amit142857/src/features/project/presentation/project_section.dart';
+import 'package:amit142857/src/features/main/provider/scroll_controller.dart';
+import 'package:amit142857/src/features/main/provider/section_key_provider.dart';
 
 class MainDesktop extends ConsumerWidget {
   const MainDesktop({super.key});

@@ -1,4 +1,4 @@
-import 'package:portfolio/src/common/provider/shared_preferences_provider.dart';
+import 'package:amit142857/src/common/provider/shared_preferences_provider.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'dart:ui';
 

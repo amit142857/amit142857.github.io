@@ -2,8 +2,8 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portfolio/src/app.dart';
-import 'package:portfolio/src/localization/app_localizations.dart';
+import 'package:amit142857/src/app.dart';
+import 'package:amit142857/src/localization/app_localizations.dart';
 import 'package:url_strategy/url_strategy.dart';
 
 void main() async {

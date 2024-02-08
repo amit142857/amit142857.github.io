@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "dev.aladdine" "\0"
-            VALUE "FileDescription", "portfolio" "\0"
+            VALUE "FileDescription", "amit142857" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "portfolio" "\0"
+            VALUE "InternalName", "amit142857" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 dev.aladdine. All rights reserved." "\0"
-            VALUE "OriginalFilename", "portfolio.exe" "\0"
-            VALUE "ProductName", "portfolio" "\0"
+            VALUE "OriginalFilename", "amit142857.exe" "\0"
+            VALUE "ProductName", "amit142857" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

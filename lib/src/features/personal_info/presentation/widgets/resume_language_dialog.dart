@@ -2,10 +2,10 @@ import 'package:collection/collection.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/common/widgets/selection_area.dart';
-import 'package:portfolio/src/features/personal_info/domain/resume.dart';
-import 'package:portfolio/src/features/personal_info/presentation/widgets/resume_language_dialog_tile.dart';
-import 'package:portfolio/src/localization/generated/locale_keys.g.dart';
+import 'package:amit142857/src/common/widgets/selection_area.dart';
+import 'package:amit142857/src/features/personal_info/domain/resume.dart';
+import 'package:amit142857/src/features/personal_info/presentation/widgets/resume_language_dialog_tile.dart';
+import 'package:amit142857/src/localization/generated/locale_keys.g.dart';
 
 class ResumeLanguageDialog extends ConsumerWidget {
   const ResumeLanguageDialog({super.key, required this.resumes});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/common/domain/link.dart';
-import 'package:portfolio/src/common/widgets/link.dart';
+import 'package:amit142857/src/common/domain/link.dart';
+import 'package:amit142857/src/common/widgets/link.dart';
 
 class WrapLinks extends ConsumerWidget {
   const WrapLinks({

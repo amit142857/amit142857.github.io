@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/common/widgets/technology_wrap_chips.dart';
-import 'package:portfolio/src/common/widgets/wrap_links.dart';
-import 'package:portfolio/src/constants/sizes.dart';
-import 'package:portfolio/src/features/project/domain/project.dart';
+import 'package:amit142857/src/common/widgets/technology_wrap_chips.dart';
+import 'package:amit142857/src/common/widgets/wrap_links.dart';
+import 'package:amit142857/src/constants/sizes.dart';
+import 'package:amit142857/src/features/project/domain/project.dart';
 
 class ProjectDescription extends ConsumerWidget {
   const ProjectDescription({super.key, required this.project});

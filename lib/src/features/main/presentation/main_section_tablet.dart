@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/common/widgets/animated_fade_slide.dart';
-import 'package:portfolio/src/common/widgets/selection_area.dart';
-import 'package:portfolio/src/constants/sizes.dart';
-import 'package:portfolio/src/features/about/presentation/about_section.dart';
-import 'package:portfolio/src/features/experience/presentation/experience_section.dart';
-import 'package:portfolio/src/features/personal_info/presentation/personal_info_section.dart';
-import 'package:portfolio/src/features/main/presentation/widgets/sliver_app_bar.dart';
-import 'package:portfolio/src/features/project/presentation/project_section.dart';
-import 'package:portfolio/src/features/main/provider/scroll_controller.dart';
-import 'package:portfolio/src/features/main/provider/section_key_provider.dart';
-import 'package:portfolio/src/common/widgets/responsive.dart';
+import 'package:amit142857/src/common/widgets/animated_fade_slide.dart';
+import 'package:amit142857/src/common/widgets/selection_area.dart';
+import 'package:amit142857/src/constants/sizes.dart';
+import 'package:amit142857/src/features/about/presentation/about_section.dart';
+import 'package:amit142857/src/features/experience/presentation/experience_section.dart';
+import 'package:amit142857/src/features/personal_info/presentation/personal_info_section.dart';
+import 'package:amit142857/src/features/main/presentation/widgets/sliver_app_bar.dart';
+import 'package:amit142857/src/features/project/presentation/project_section.dart';
+import 'package:amit142857/src/features/main/provider/scroll_controller.dart';
+import 'package:amit142857/src/features/main/provider/section_key_provider.dart';
+import 'package:amit142857/src/common/widgets/responsive.dart';
 
 class MainTablet extends ConsumerStatefulWidget {
   const MainTablet({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/constants/transparent_image.dart';
-import 'package:portfolio/src/features/project/domain/project.dart';
+import 'package:amit142857/src/constants/transparent_image.dart';
+import 'package:amit142857/src/features/project/domain/project.dart';
 
 class ProjectImage extends ConsumerWidget {
   const ProjectImage({
@@ -114,11 +114,7 @@ class ProjectImage extends ConsumerWidget {
           fontFamily: projectIconFontFamily,
           fontPackage: projectIconFontPackage,
         );
-        return  Icon(
-          color: Colors.white,
-          size: 32,
-          iconData
-        );
+        return Icon(color: Colors.white, size: 32, iconData);
       }
     }
     return const SizedBox.shrink();

@@ -1,9 +1,9 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/features/personal_info/domain/contact.dart';
-import 'package:portfolio/src/features/personal_info/domain/resume.dart';
-import 'package:portfolio/src/localization/generated/locale_keys.g.dart';
-import 'package:portfolio/src/localization/json_list_translation.dart';
-import 'package:portfolio/src/localization/locale_controller.dart';
+import 'package:amit142857/src/features/personal_info/domain/contact.dart';
+import 'package:amit142857/src/features/personal_info/domain/resume.dart';
+import 'package:amit142857/src/localization/generated/locale_keys.g.dart';
+import 'package:amit142857/src/localization/json_list_translation.dart';
+import 'package:amit142857/src/localization/locale_controller.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'personal_info_repository.g.dart';

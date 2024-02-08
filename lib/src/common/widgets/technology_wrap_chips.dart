@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/common/widgets/technology_chip.dart';
+import 'package:amit142857/src/common/widgets/technology_chip.dart';
 
 class TechnologyWrapChips extends ConsumerWidget {
   const TechnologyWrapChips({

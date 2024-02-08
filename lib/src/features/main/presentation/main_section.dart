@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/features/main/presentation/main_section_desktop.dart';
-import 'package:portfolio/src/features/main/presentation/main_section_tablet.dart';
-import 'package:portfolio/src/features/main/presentation/widgets/bottom_banner.dart';
-import 'package:portfolio/src/features/main/presentation/widgets/end_drawer.dart';
-import 'package:portfolio/src/features/main/presentation/widgets/safe_area.dart';
-import 'package:portfolio/src/common/widgets/responsive.dart';
+import 'package:amit142857/src/features/main/presentation/main_section_desktop.dart';
+import 'package:amit142857/src/features/main/presentation/main_section_tablet.dart';
+import 'package:amit142857/src/features/main/presentation/widgets/bottom_banner.dart';
+import 'package:amit142857/src/features/main/presentation/widgets/end_drawer.dart';
+import 'package:amit142857/src/features/main/presentation/widgets/safe_area.dart';
+import 'package:amit142857/src/common/widgets/responsive.dart';
 
 class MainSection extends ConsumerStatefulWidget {
   const MainSection({super.key});

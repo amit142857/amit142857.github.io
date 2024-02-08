@@ -1,8 +1,8 @@
 <img src="assets/images/logo.png" align="right" width="60px"/>
 
-# Portfolio 💙 [![Licence](https://img.shields.io/github/license/AladdineDev/portfolio?color=a51931&style=flat-square)](https://github.com/AladdineDev/portfolio/blob/master/LICENSE.md) [![Stars](https://img.shields.io/github/stars/AladdineDev/portfolio?style=flat-square)](https://github.com/AladdineDev/portfolio/stargazers) [![Forks](https://img.shields.io/github/forks/AladdineDev/portfolio?style=flat-square)](https://github.com/AladdineDev/portfolio/forks?include=active&page=1&period=&sort_by=stargazer_counts)
+# amit142857 💙 [![Licence](https://img.shields.io/github/license/AladdineDev/amit142857?color=a51931&style=flat-square)](https://github.com/AladdineDev/amit142857/blob/master/LICENSE.md) [![Stars](https://img.shields.io/github/stars/AladdineDev/amit142857?style=flat-square)](https://github.com/AladdineDev/amit142857/stargazers) [![Forks](https://img.shields.io/github/forks/AladdineDev/amit142857?style=flat-square)](https://github.com/AladdineDev/amit142857/forks?include=active&page=1&period=&sort_by=stargazer_counts)
 
-Flutter Portfolio – by [@AladdineDev](https://github.com/AladdineDev)
+Flutter amit142857 – by [@AladdineDev](https://github.com/AladdineDev)
 
 [![Flutter 3](https://img.shields.io/badge/Flutter-3.16-02569b.svg?style=flat-square&logo=flutter&logoColor=13b9fd)](https://flutter.dev/)
 [![Dart 3](https://img.shields.io/badge/Dart-3.2-0175c2.svg?style=flat-square&logo=dart&logoColor=13b9fd)](https://dart.dev/)
@@ -41,14 +41,14 @@ See the [`pubspec.yaml`](pubspec.yaml) file for the complete list
 
 If you haven't already, install [Flutter](https://docs.flutter.dev/get-started/install)
 
-[Fork](https://github.com/AladdineDev/portfolio/fork) and [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) this repository
+[Fork](https://github.com/AladdineDev/amit142857/fork) and [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) this repository
 
-**1. Navigate to your portfolio directory:**
+**1. Navigate to your amit142857 directory:**
 ```bash
-$ cd portfolio
+$ cd amit142857
 ```
 
-> From here, you're all set to [deploy](#deploy) your portfolio. To build it locally, continue with the instructions below.
+> From here, you're all set to [deploy](#deploy) your amit142857. To build it locally, continue with the instructions below.
 
 **2. Install dependencies:**
 ```bash
@@ -72,12 +72,12 @@ $ dart run easy_localization:generate -S assets/translations -f keys -O lib/src/
 
 ### Deploy
 
-<a id="deploy">**Automatically deploy your portfolio to GitHub Pages with GitHub Actions:**</a>
+<a id="deploy">**Automatically deploy your amit142857 to GitHub Pages with GitHub Actions:**</a>
 ```bash
 $ git push -u origin main
 ```
 
-Whenever you want to redeploy your portfolio, simply push your changes as you did.
+Whenever you want to redeploy your amit142857, simply push your changes as you did.
 
 Additionally for your initial deployment, you'll need to select the proper GitHub Pages branch.
 
@@ -89,8 +89,8 @@ Additionally for your initial deployment, you'll need to select the proper GitHu
 
 ### Content 🖋
 
-**1. Portfolio Content:**\
-Customize the portfolio content by modifying or adding JSON translation files within the [`assets/translations`](assets/translations) folder. Don't forget to [re-generate your localization files](#generate-localization-files) to see your changes when working locally. For an understanding of how JSON translation files are structured, refer to the [translation template](docs/translation-template.md)
+**1. amit142857 Content:**\
+Customize the amit142857 content by modifying or adding JSON translation files within the [`assets/translations`](assets/translations) folder. Don't forget to [re-generate your localization files](#generate-localization-files) to see your changes when working locally. For an understanding of how JSON translation files are structured, refer to the [translation template](docs/translation-template.md)
 
 If you add or remove a JSON translation file, remember to update the `languages` key in your other translation files. Also, update the supported locales in the [`lib/src/localization/app_localizations.dart`](lib/src/localization/app_localizations.dart)
 
@@ -116,4 +116,4 @@ $ dart run flutter_native_splash:create
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/AladdineDev/portfolio/blob/main/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/AladdineDev/amit142857/blob/main/LICENSE.md) file for details

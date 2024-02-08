@@ -58,7 +58,7 @@
                 "Dart",
                 "REST API",
                 "Figma UI",
-                "SQLite", 
+                "SQLite",
                 "GitHub"
             ],
             "links": [
@@ -74,21 +74,22 @@
             "description": "Development of a Fintech application with standard security measures and excellent UI, for Qatar. A Room allocation application with QR code scanner which allocates the room automatically for the participants for any gathering. A VoIP application whose competitors are openphone and krispcall, having a lot more features than it's competitors.",
             "startYear": 2023,
             "startMonth": 1,
-            "isPresent":true,
+            "isPresent": true,
             "technologies": [
                 "Flutter",
                 "Dart",
-                "Firebase", 
-                "GraphQL", 
-                "Figma UI", 
-                "Bloc", 
+                "Firebase",
+                "GraphQL",
+                "Figma UI",
+                "Bloc",
                 "Twilio Voice"
-            ], 
+            ],
             "links": [
                 {
                     "url": "https://varosatech.com/",
                     "display": "Varosa Technology"
-                }]
+                }
+            ]
         }
     ],
     "present": "Present",
@@ -103,9 +104,9 @@
             "screenshotPath": "assets/images/calilio1.png",
             "technologies": [
                 "Flutter",
-                "Dart", 
-                "Bloc", 
-                "GraphQL", 
+                "Dart",
+                "Bloc",
+                "GraphQL",
                 "Twilio Voice"
             ],
             "links": [
@@ -124,12 +125,12 @@
             "iconFontPackage": "font_awesome_flutter",
             "screenshotPath": "assets/images/mume1.png",
             "technologies": [
-                "REST API", 
-                "Figma UI", 
-                "Dart", 
-                "Bloc", 
+                "REST API",
+                "Figma UI",
+                "Dart",
+                "Bloc",
                 "GitHub"
-            ], 
+            ],
             "links": [
                 {
                     "url": "https://play.google.com/store/apps/details?id=com.mume&pcampaignid=web_share",
@@ -147,11 +148,11 @@
             "screenshotPath": "assets/images/retail.png",
             "technologies": [
                 "Flutter",
-                "Dart", 
-                "REST API", 
-                "GitHub", 
+                "Dart",
+                "REST API",
+                "GitHub",
                 "Figma UI"
-            ], 
+            ],
             "links": [
                 {
                     "url": "https://www.fishkingseafood.com/",
@@ -168,10 +169,10 @@
             "iconFontPackage": "font_awesome_flutter",
             "screenshotPath": "assets/images/sms.png",
             "technologies": [
-                "Bloc", 
-                "Dart", 
-                "Figma UI", 
-                "Flutter", 
+                "Bloc",
+                "Dart",
+                "Figma UI",
+                "Flutter",
                 "REST API"
             ]
         }
@@ -193,7 +194,7 @@
         "displayLink": "",
         "linkUrl": ""
     },
-    "portfolio": "Portfolio",
+    "amit142857": "amit142857",
     "homeSectionTitle": "Home",
     "aboutSectionTitle": "About",
     "aboutSectionTitleAlt": "About Me",

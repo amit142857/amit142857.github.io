@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:portfolio/src/common/domain/link.dart';
+import 'package:amit142857/src/common/domain/link.dart';
 
 part 'experience.freezed.dart';
 part 'experience.g.dart';

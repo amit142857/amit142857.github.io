@@ -2,11 +2,11 @@ import 'package:collection/collection.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/src/common/data/language_repository.dart';
-import 'package:portfolio/src/constants/sizes.dart';
-import 'package:portfolio/src/localization/generated/locale_keys.g.dart';
-import 'package:portfolio/src/common/domain/language.dart';
-import 'package:portfolio/src/localization/locale_controller.dart';
+import 'package:amit142857/src/common/data/language_repository.dart';
+import 'package:amit142857/src/constants/sizes.dart';
+import 'package:amit142857/src/localization/generated/locale_keys.g.dart';
+import 'package:amit142857/src/common/domain/language.dart';
+import 'package:amit142857/src/localization/locale_controller.dart';
 
 class LocaleButton extends ConsumerWidget {
   const LocaleButton({super.key});

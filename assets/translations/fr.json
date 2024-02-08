@@ -108,13 +108,13 @@
     "present": "Présent",
     "projects": [
         {
-            "name": "Portfolio",
-            "description": "Oui, il s'agit de ce portfolio ! \nCe projet adopte une architecture basée sur Riverpod en suivant une approche orientée fonctionnalités pour sa structure. Il est entièrement responsive, et prend en charge plusieurs thèmes ainsi que plusieurs langues.",
-            "url": "https://github.com/AladdineDev/portfolio#readme",
+            "name": "amit142857",
+            "description": "Oui, il s'agit de ce amit142857 ! \nCe projet adopte une architecture basée sur Riverpod en suivant une approche orientée fonctionnalités pour sa structure. Il est entièrement responsive, et prend en charge plusieurs thèmes ainsi que plusieurs langues.",
+            "url": "https://github.com/AladdineDev/amit142857#readme",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
-            "screenshotPath": "assets/images/portfolio.png",
+            "screenshotPath": "assets/images/amit142857.png",
             "technologies": [
                 "Flutter",
                 "Dart"
@@ -215,11 +215,11 @@
         }
     ],
     "bottomBanner": {
-        "message": "Portfolio open source -",
+        "message": "amit142857 open source -",
         "displayLink": "Forkez-le !",
-        "linkUrl": "https://github.com/AladdineDev/portfolio#readme"
+        "linkUrl": "https://github.com/AladdineDev/amit142857#readme"
     },
-    "portfolio": "Portfolio",
+    "amit142857": "amit142857",
     "homeSectionTitle": "Accueil",
     "aboutSectionTitle": "À propos",
     "aboutSectionTitleAlt": "À propos de moi",
