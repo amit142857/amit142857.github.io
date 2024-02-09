@@ -1,13 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:amit142857/src/common/data/language_repository.dart';
 import 'package:amit142857/src/common/widgets/animated_fade_slide.dart';
 import 'package:amit142857/src/common/widgets/selection_area.dart';
 import 'package:amit142857/src/constants/sizes.dart';
 import 'package:amit142857/src/features/main/presentation/widgets/dark_mode_switch.dart';
 import 'package:amit142857/src/features/main/presentation/widgets/drawer_button.dart';
-import 'package:amit142857/src/features/main/presentation/widgets/locale_button.dart';
 
 import 'package:amit142857/src/features/main/provider/section_key_provider.dart';
 import 'package:amit142857/src/common/widgets/responsive.dart';
@@ -89,11 +87,11 @@ class EndDrawer extends ConsumerWidget {
                         ),
                       ),
                       gapH80,
-                      AnimatedFadeSlide(
-                        offset: const Offset(0, 64),
-                        duration: const Duration(milliseconds: 350),
-                        child: _buildLocaleButton(context, ref),
-                      ),
+                      // AnimatedFadeSlide(
+                      //   offset: const Offset(0, 64),
+                      //   duration: const Duration(milliseconds: 350),
+                      //   child: _buildLocaleButton(context, ref),
+                      // ),
                       gapH40,
                     ],
                   ),
@@ -106,9 +104,9 @@ class EndDrawer extends ConsumerWidget {
     );
   }
 
-  Widget _buildLocaleButton(BuildContext context, WidgetRef ref) {
-    final languages = ref.watch(languageRepositoryProvider).getLanguages();
-    if (languages.length > 1) return const LocaleButton();
-    return const SizedBox.shrink();
-  }
+  // Widget _buildLocaleButton(BuildContext context, WidgetRef ref) {
+  //   final languages = ref.watch(languageRepositoryProvider).getLanguages();
+  //   if (languages.length > 1) return const LocaleButton();
+  //   return const SizedBox.shrink();
+  // }
 }

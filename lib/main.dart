@@ -19,7 +19,7 @@ void main() async {
         supportedLocales: AppLocalizations.supportedLocales,
         path: AppLocalizations.path,
         fallbackLocale: AppLocalizations.fallbackLocale,
-        child: const MyApp(),
+        child: const MyApp(), 
       ),
     ),
   );

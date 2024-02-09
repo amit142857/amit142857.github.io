@@ -2,13 +2,11 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:amit142857/src/common/data/language_repository.dart';
 import 'package:amit142857/src/common/widgets/animated_fade_slide.dart';
 import 'package:amit142857/src/common/widgets/selection_area.dart';
 import 'package:amit142857/src/constants/sizes.dart';
 import 'package:amit142857/src/features/main/presentation/widgets/app_bar_button.dart';
 import 'package:amit142857/src/features/main/presentation/widgets/dark_mode_switch.dart';
-import 'package:amit142857/src/features/main/presentation/widgets/locale_button.dart';
 import 'package:amit142857/src/localization/generated/locale_keys.g.dart';
 import 'package:amit142857/src/features/main/provider/section_key_provider.dart';
 import 'package:amit142857/src/common/widgets/responsive.dart';
@@ -74,7 +72,7 @@ class MyAppBar extends ConsumerWidget {
                       _onAppBarButtonTap(ref.watch(projectSectionKeyProvider));
                     },
                   ),
-                  _buildLocaleButton(context, ref),
+                  //_buildLocaleButton(context, ref),
                   gapW8,
                   const DarkModeSwitch(),
                   gapW8,
@@ -105,9 +103,9 @@ class MyAppBar extends ConsumerWidget {
     }
   }
 
-  Widget _buildLocaleButton(BuildContext context, WidgetRef ref) {
-    final languages = ref.watch(languageRepositoryProvider).getLanguages();
-    if (languages.length > 1) return const LocaleButton();
-    return const SizedBox.shrink();
-  }
+  // Widget _buildLocaleButton(BuildContext context, WidgetRef ref) {
+  //   final languages = ref.watch(languageRepositoryProvider).getLanguages();
+  //   if (languages.length > 1) return const LocaleButton();
+  //   return const SizedBox.shrink();
+  // }
 }
